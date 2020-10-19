@@ -339,6 +339,13 @@ li.dropdown {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .section-content.apply-page {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .apply-note {
   margin-bottom: 1rem;
   color: rgb(226, 226, 226);
