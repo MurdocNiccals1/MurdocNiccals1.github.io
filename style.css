@@ -354,6 +354,13 @@ li.dropdown {
   margin-right: 24rem;
 }
 
+@media (max-width: 767px) {
+  .staff-recruitment-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .item-wrapper [class*="col-"] {
   display: flex;
   flex-direction: row;
