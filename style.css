@@ -100,7 +100,6 @@ li.dropdown {
   background-image: url(img/background.png);
   opacity: 0.9;
   text-align: center;
-  display: flex;
 }
 
 #showcase h1 {
