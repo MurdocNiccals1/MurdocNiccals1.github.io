@@ -516,13 +516,6 @@ hr {
   background-color: #222224;
 }
 
-@media (max-width: 767px) {
-  .our-history-wrapper {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 .breadcrumb-inner h1 {
   font-size: 55px;
   padding-top: 20px;
@@ -559,6 +552,13 @@ hr {
 
 .join-us-paragraph {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .our-history-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 /* meet the team */
