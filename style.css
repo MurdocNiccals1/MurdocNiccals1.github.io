@@ -335,6 +335,12 @@ li.dropdown {
   letter-spacing: 3px;
 }
 
+@media (max-width: 767px) {
+  .section-heading h3 {
+    font-size: 40px;
+  }
+}
+
 .apply-requirement {
   display: flex;
   flex-direction: column;
@@ -507,7 +513,6 @@ hr {
 .our-history.page-breadcrumb {
   position: relative;
   display: block;
-  display: flex;
   background-image: url(img/history.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -539,7 +544,6 @@ hr {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 490px;
 }
 
 .section-heading {
@@ -554,17 +558,21 @@ hr {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 767px) {
-  .our-history-wrapper {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 /* meet the team */
 
 #team-members {
   background-color: #222224;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    min-width: 100%;
+  }
 }
 
 .team.page-breadcrumb {
@@ -598,6 +606,12 @@ hr {
   color: rgb(226, 226, 226);
 }
 
+@media (max-width: 767px) {
+  .team-section .section-title h4 {
+    font-size: 3rem;
+  }
+}
+
 .team-section .card {
   position: relative;
   width: 100%;
@@ -609,6 +623,13 @@ hr {
   border: 1px solid transparent;
   box-shadow: 0 0 15px -3px rgba(123, 120, 120, 0.11);
 }
+
+@media (max-width: 767px) {
+  .team-section .card {
+    min-width: 100%;
+  }
+}
+
 .card {
   position: relative;
   display: flex;
@@ -651,6 +672,12 @@ hr {
   line-height: 0.5;
   text-align: right;
   padding-right: 0.8em;
+}
+
+@media (max-width: 767px) {
+  .user-info {
+    line-height: 1;
+  }
 }
 
 .user-info h2,
