@@ -347,6 +347,7 @@ li.dropdown {
 
 #staff-recruitment {
   background-color: #222224;
+  display: flex;
 }
 
 .staff-recruitment-wrapper {
