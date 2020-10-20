@@ -357,6 +357,13 @@ li.dropdown {
   opacity: 0.7;
 }
 
+@media (max-width: 767px) {
+  .apply-content-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 #staff-recruitment {
   background-color: #222224;
   display: flex;
@@ -500,12 +507,20 @@ hr {
 .our-history.page-breadcrumb {
   position: relative;
   display: block;
+  display: flex;
   background-image: url(img/history.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 490px;
   background-color: #222224;
+}
+
+@media (max-width: 767px) {
+  .our-history-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .breadcrumb-inner h1 {
