@@ -704,6 +704,12 @@ hr {
   letter-spacing: 3px;
 }
 
+@media (max-width: 767px) {
+  .gallery-heading {
+    font-size: 40px;
+  }
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
