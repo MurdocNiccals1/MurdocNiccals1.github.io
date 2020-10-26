@@ -161,6 +161,12 @@ li.dropdown {
   padding: 0px 20% 10px 20%;
 }
 
+@media (max-width: 767px) {
+  .about-us-paragraph {
+    line-height: 25px;
+  }
+}
+
 .d-flex {
   display: flex;
   flex-direction: row;
@@ -245,6 +251,12 @@ li.dropdown {
   letter-spacing: 3px;
 }
 
+@media (max-width: 767px) {
+  .join-us-heading {
+    font-size: 40px;
+  }
+}
+
 .join-us-paragraph {
   font-size: 20px;
   color: rgb(226, 226, 226);
@@ -252,6 +264,12 @@ li.dropdown {
   opacity: 0.7;
   line-height: 30px;
   padding: 0px 20% 10px 20%;
+}
+
+@media (max-width: 767px) {
+  .join-us-paragraph {
+    line-height: 25px;
+  }
 }
 
 .legion-button {
